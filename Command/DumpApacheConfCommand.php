@@ -33,7 +33,7 @@ EOF
         );
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $output->writeln(<<<EOF
 Open your .htaccess file and paste the following lines before any other rewrite rules:
